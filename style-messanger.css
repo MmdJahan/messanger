@@ -3,13 +3,14 @@ body {
     margin: 0;
 }
 .image {
-    background-image: url(bg4.jpg);
+    /*background-image: url(bg4.jpg);*/
+    background-color: #fefdfc;
+    background-image: linear-gradient(315deg, #fefdfc 0%, #473146 74%);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     position: relative;
-
 }
 .red-square {
     background-color: darkgray;
@@ -20,9 +21,8 @@ body {
     top: 50%;
     transform: translate(-50%, -50%);
     border-radius: 17px;
-    opacity: 0.6;
+    /*opacity: 0.6;*/
     }
-    
     .blue-square {
     background-color: none ;
     position: relative;
@@ -34,9 +34,9 @@ body {
     }
     .h2 {
         text-align: center;
-        border-bottom: 1px solid black;
+        border-bottom: 1px solid rgb(80, 73, 73);
         padding:  0px 0px 12px 0px;
-
+        font-family: sans-serif;
     }
     .input1 {
         background-color: whitesmoke;
@@ -44,14 +44,17 @@ body {
         height: 13%;
         border-radius: 18px;
         padding: 0px 0px 0px 10px;
-        
+        border: 1px solid darkgrey;  
     }
     .sign-in{
         background-color: rgba(65, 65, 190, 0.603);
         width: 100%;
         border-radius: 18px;
         height: 40px;
-        color: white
+        color: white;
+        border: 1px solid rgba(65, 65, 190, 0.603);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: small
     }
     .create {
         text-decoration: none;
